@@ -1,0 +1,40 @@
+.lwcp-page-picker {
+	max-width: 640px;
+}
+
+.lwcp-page-search-results,
+.lwcp-selected-pages {
+	margin: 10px 0;
+	padding: 0;
+	list-style: none;
+}
+
+.lwcp-page-search-results li,
+.lwcp-selected-pages li {
+	margin: 0 0 8px;
+}
+
+.lwcp-page-search-results .button {
+	width: 100%;
+	text-align: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.lwcp-selected-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	padding: 6px 8px;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	background: #fff;
+}
+
+.lwcp-selected-label {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
