@@ -5,8 +5,14 @@ A performance-first WordPress plugin that adds selective protection against casu
 ## Plugin Details
 
 - Author: Anuj Dhungana
+- Contributors: anujdhungana
+- Tags: content protection, copy protection, right click, disable copy, security
 - Required WordPress version: 6.3+
+- Tested up to: 6.9
 - Required PHP version: 7.4+
+- Stable tag: 1.0.5
+- License: GPLv2 or later
+- License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 ## Features
 
@@ -34,6 +40,16 @@ A performance-first WordPress plugin that adds selective protection against casu
 - Protection is loaded conditionally to minimize performance impact.
 - Avoid enabling aggressive restrictions on pages that require full browser interaction.
 
+## Frequently Asked Questions
+
+### Does this fully prevent content theft?
+
+No. It is a deterrent layer for casual copying and shortcut abuse, not a complete anti-scraping solution.
+
+### Will this affect site performance?
+
+The plugin loads protection assets conditionally only where needed to minimize overhead.
+
 ## Translation Support
 
 - Text domain: `liteweight-content-protector`
@@ -45,3 +61,11 @@ A performance-first WordPress plugin that adds selective protection against casu
 - On uninstall, the plugin removes:
   - Global plugin settings option: `lwcp_settings`
   - Per-post/page meta overrides: `_lwcp_protection_mode`
+
+## Changelog
+
+### 1.0.5
+
+- Improved admin and frontend standards compliance.
+- Added stricter defaults and migration handling for right-click behavior and role bypass settings.
+- Stability and security hardening updates.
